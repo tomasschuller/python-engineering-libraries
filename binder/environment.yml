@@ -1,0 +1,22 @@
+name: python-engineering
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - plotly
+  - scikit-learn
+  - xgboost
+  - jupyterlab
+  - pip:
+    - pyomo
+    - cadquery
+    - gmsh
+    - trimesh
+    - pytest
+    - mypy
+    - hatch
+    - uv
