@@ -1,0 +1,104 @@
+---
+title: "Python Engineering Libraries"
+subtitle: "A hands-on guide to Python libraries for engineering"
+author: "Tomás Schuller"
+date: today
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: false
+    code-line-numbers: true
+    highlight-style: github
+    css: styles.css
+    page-progress: true
+    smooth-scroll: true
+    reader-mode: true
+    link-external-icon: true
+    lang: en-US
+    date-format: "YYYY-MM-DD"
+    number-sections: true
+    code-overflow: scroll
+    embedded-images: true
+    link-external-newtab: true
+---
+
+## Welcome!
+
+This is an educational project covering **Python libraries for engineering**, organized into 7 categories with 28 interactive Jupyter notebooks.
+
+## What's Inside
+
+### 1. Core Libraries
+The foundation of scientific computing in Python:
+- **NumPy** - Array operations and numerical computing
+- **SciPy** - Scientific algorithms (optimization, integration, ODEs)
+- **Matplotlib** - Publication-quality plots
+
+### 2. Optimization
+Solve engineering optimization problems:
+- **SciPy Optimize** - Gradient-based and derivative-free methods
+- **Pyomo** - Algebraic modeling for large-scale optimization
+
+### 3. CAD & Meshing
+From geometry to simulation-ready meshes:
+- **CadQuery** - Parametric CAD modeling
+- **Gmsh** - Mesh generation for FEM/CFD
+- **Trimesh** - Mesh manipulation and analysis
+
+### 4. Machine Learning
+Data-driven engineering:
+- **Scikit-learn** - Classical ML algorithms
+- **XGBoost** - Gradient boosting for tabular data
+
+### 5. Data
+Data handling and visualization:
+- **Plotly** - Interactive visualizations
+- **Pandas** - Data manipulation
+- **CFD Postprocessing** - Extract insights from simulation data
+
+### 6. Testing & Quality
+Write reliable code:
+- **Pytest** - Testing framework
+- **Mypy** - Static type checking
+
+### 7. Build & Packaging
+Distribute your tools:
+- **Setuptools** - Traditional Python packaging
+- **UV** - Modern, fast package manager
+- **Hatch** - Alternative build backend
+- **CI/CD** - Automated testing with GitHub Actions
+
+## How to Use
+
+1. **Browse the notebooks** - Each one is self-contained with explanations and examples
+2. **Run the code** - All notebooks are executable (requires Python 3.10+)
+3. **Follow the progression** - Start with Core, then move to specialized topics
+
+## Prerequisites
+
+- Python 3.10 or later
+- Basic Python programming knowledge
+- Familiarity with engineering concepts (helpful but not required)
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/tomasschuller/python-engineering-libraries.git
+cd python-engineering-libraries
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+## Contributing
+
+Found an error or have a suggestion? [Open an issue](https://github.com/tomasschuller/python-engineering-libraries/issues) or submit a pull request!
+
+## License
+
+This project is licensed under the MIT License.
