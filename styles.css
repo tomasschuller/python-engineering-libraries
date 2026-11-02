@@ -129,14 +129,16 @@ main {
   padding: 2rem;
 }
 
-/* Fix floating sidebar layout - reduce gap between sidebar and content */
-body.nav-sidebar.floating #quarto-content {
+/* Fix the gap between sidebar and content */
+.page-columns {
   margin-left: 0 !important;
   padding-left: 0 !important;
 }
 
-body.nav-sidebar.floating .page-columns {
+/* The main content area */
+main.content {
   margin-left: 0 !important;
+  padding-left: 1rem !important; /* Small padding for readability */
 }
 
 /* Ensure content doesn't overlap with TOC */
