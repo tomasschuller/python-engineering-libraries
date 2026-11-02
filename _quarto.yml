@@ -104,3 +104,4 @@ format:
     code-overflow: scroll
     embedded-images: true
     link-external-newtab: true
+    favicon: logo.png
