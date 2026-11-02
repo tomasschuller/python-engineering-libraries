@@ -41,12 +41,22 @@ website:
             text: SciPy
           - href: notebooks/01_core/03_matplotlib.ipynb
             text: Matplotlib
+          - href: notebooks/01_core/04_pandas.ipynb
+            text: Pandas
+          - href: notebooks/01_core/05_sympy.ipynb
+            text: SymPy
       - section: 2. Optimization
         contents:
-          - href: notebooks/02_optimization/01_scipy_optimize.ipynb
+          - href: notebooks/02_optimization/01_pydoe.ipynb
+            text: PyDOE
+          - href: notebooks/02_optimization/02_piglot.ipynb
+            text: Piglot
+          - href: notebooks/02_optimization/02_scipy_optimize.ipynb
             text: SciPy Optimize
-          - href: notebooks/02_optimization/02_pyomo.ipynb
-            text: Pyomo
+          - href: notebooks/02_optimization/03_deap.ipynb
+            text: DEAP
+          - href: notebooks/02_optimization/04_salib.ipynb
+            text: SALib
       - section: 3. CAD & Meshing
         contents:
           - href: notebooks/03_cad_meshing/01_cadquery.ipynb
@@ -57,26 +67,34 @@ website:
             text: Trimesh
       - section: 4. Machine Learning
         contents:
-          - href: notebooks/04_ml/01_scikit_learn.ipynb
+          - href: notebooks/04_ml/01_torch.ipynb
+            text: PyTorch
+          - href: notebooks/04_ml/02_scikit_learn.ipynb
             text: Scikit-learn
-          - href: notebooks/04_ml/02_xgboost.ipynb
+          - href: notebooks/04_ml/03_xgboost.ipynb
             text: XGBoost
       - section: 5. Data
         contents:
           - href: notebooks/05_data/01_plotly.ipynb
             text: Plotly
-          - href: notebooks/05_data/02_pandas.ipynb
-            text: Pandas
+          - href: notebooks/05_data/02_streamlit.ipynb
+            text: Streamlit
           - href: notebooks/05_data/03_cfd_postprocessing.ipynb
             text: CFD Postprocessing
+          - href: notebooks/05_data/04_openfoam_integration.ipynb
+            text: OpenFOAM Integration
       - section: 6. Testing & Quality
         contents:
           - href: notebooks/06_testing_quality/01_pytest.ipynb
             text: Pytest
           - href: notebooks/06_testing_quality/02_mypy.ipynb
             text: Mypy
+          - href: notebooks/06_testing_quality/03_ruff.ipynb
+            text: Ruff
       - section: 7. Build & Packaging
         contents:
+          - href: notebooks/07_build_packaging/01_poetry.ipynb
+            text: Poetry
           - href: notebooks/07_build_packaging/01_setuptools.ipynb
             text: Setuptools
           - href: notebooks/07_build_packaging/02_uv.ipynb

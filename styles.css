@@ -139,12 +139,13 @@ main {
 main.content {
   margin-left: 0 !important;
   padding-left: 1rem !important; /* Small padding for readability */
+  max-width: 100% !important; /* Allow full width */
 }
 
 /* Ensure content doesn't overlap with TOC */
 #quarto-document-content {
-  max-width: calc(100% - 300px); /* Leave space for TOC */
-  margin-right: 2rem;
+  max-width: calc(100% - 250px); /* Leave less space for TOC to widen content */
+  margin-right: 1rem;
 }
 
 /* On smaller screens, stack TOC below content */
