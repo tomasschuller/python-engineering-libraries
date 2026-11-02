@@ -126,20 +126,13 @@ footer {
 main {
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 2rem 2rem 0.5rem; /* Reduce left padding further */
-}
-
-/* Remove extra margin from content container */
-#quarto-content {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+  padding: 2rem;
 }
 
 /* Ensure content doesn't overlap with TOC */
 #quarto-document-content {
   max-width: calc(100% - 300px); /* Leave space for TOC */
   margin-right: 2rem;
-  margin-left: 0 !important;
 }
 
 /* On smaller screens, stack TOC below content */
