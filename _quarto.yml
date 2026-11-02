@@ -8,19 +8,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: 01_core/
+      - href: notebooks/01_core/
         text: Core
-      - href: 02_optimization/
+      - href: notebooks/02_optimization/
         text: Optimization
-      - href: 03_cad_meshing/
+      - href: notebooks/03_cad_meshing/
         text: CAD & Meshing
-      - href: 04_ml/
+      - href: notebooks/04_ml/
         text: Machine Learning
-      - href: 05_data/
+      - href: notebooks/05_data/
         text: Data
-      - href: 06_testing_quality/
+      - href: notebooks/06_testing_quality/
         text: Testing & Quality
-      - href: 07_build_packaging/
+      - href: notebooks/07_build_packaging/
         text: Build & Packaging
     right:
       - icon: github
@@ -35,55 +35,55 @@ website:
             text: Python Engineering Libraries
       - section: 1. Core Libraries
         contents:
-          - href: 01_core/01_numpy.ipynb
+          - href: notebooks/01_core/01_numpy.ipynb
             text: NumPy
-          - href: 01_core/02_scipy.ipynb
+          - href: notebooks/01_core/02_scipy.ipynb
             text: SciPy
-          - href: 01_core/03_matplotlib.ipynb
+          - href: notebooks/01_core/03_matplotlib.ipynb
             text: Matplotlib
       - section: 2. Optimization
         contents:
-          - href: 02_optimization/01_scipy_optimize.ipynb
+          - href: notebooks/02_optimization/01_scipy_optimize.ipynb
             text: SciPy Optimize
-          - href: 02_optimization/02_pyomo.ipynb
+          - href: notebooks/02_optimization/02_pyomo.ipynb
             text: Pyomo
       - section: 3. CAD & Meshing
         contents:
-          - href: 03_cad_meshing/01_cadquery.ipynb
+          - href: notebooks/03_cad_meshing/01_cadquery.ipynb
             text: CadQuery
-          - href: 03_cad_meshing/02_gmsh.ipynb
+          - href: notebooks/03_cad_meshing/02_gmsh.ipynb
             text: Gmsh
-          - href: 03_cad_meshing/03_trimesh.ipynb
+          - href: notebooks/03_cad_meshing/03_trimesh.ipynb
             text: Trimesh
       - section: 4. Machine Learning
         contents:
-          - href: 04_ml/01_scikit_learn.ipynb
+          - href: notebooks/04_ml/01_scikit_learn.ipynb
             text: Scikit-learn
-          - href: 04_ml/02_xgboost.ipynb
+          - href: notebooks/04_ml/02_xgboost.ipynb
             text: XGBoost
       - section: 5. Data
         contents:
-          - href: 05_data/01_plotly.ipynb
+          - href: notebooks/05_data/01_plotly.ipynb
             text: Plotly
-          - href: 05_data/02_pandas.ipynb
+          - href: notebooks/05_data/02_pandas.ipynb
             text: Pandas
-          - href: 05_data/03_cfd_postprocessing.ipynb
+          - href: notebooks/05_data/03_cfd_postprocessing.ipynb
             text: CFD Postprocessing
       - section: 6. Testing & Quality
         contents:
-          - href: 06_testing_quality/01_pytest.ipynb
+          - href: notebooks/06_testing_quality/01_pytest.ipynb
             text: Pytest
-          - href: 06_testing_quality/02_mypy.ipynb
+          - href: notebooks/06_testing_quality/02_mypy.ipynb
             text: Mypy
       - section: 7. Build & Packaging
         contents:
-          - href: 07_build_packaging/01_setuptools.ipynb
+          - href: notebooks/07_build_packaging/01_setuptools.ipynb
             text: Setuptools
-          - href: 07_build_packaging/02_uv.ipynb
+          - href: notebooks/07_build_packaging/02_uv.ipynb
             text: UV
-          - href: 07_build_packaging/03_hatch.ipynb
+          - href: notebooks/07_build_packaging/03_hatch.ipynb
             text: Hatch
-          - href: 07_build_packaging/03_ci.ipynb
+          - href: notebooks/07_build_packaging/03_ci.ipynb
             text: CI/CD
 
 format:
