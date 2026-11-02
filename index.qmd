@@ -27,6 +27,14 @@ format:
 
 This is an educational project covering **Python libraries for engineering**, organized into 7 categories with 28 interactive Jupyter notebooks.
 
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://mybinder.org/v2/gh/tomasschuller/python-engineering-libraries/main?urlpath=lab/tree/notebooks">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 30px;">
+  </a>
+</div>
+
+**Try it in your browser!** Click the badge above to launch a live Jupyter environment with all dependencies pre-installed. No setup required!
+
 ## What's Inside
 
 ### 1. Core Libraries
@@ -71,9 +79,15 @@ Distribute your tools:
 
 ## How to Use
 
-1. **Browse the notebooks** - Each one is self-contained with explanations and examples
-2. **Run the code** - All notebooks are executable (requires Python 3.10+)
-3. **Follow the progression** - Start with Core, then move to specialized topics
+### Option 1: Run in Browser (Easiest)
+Click the **Launch Binder** badge above to open a live Jupyter environment in your browser. No installation needed!
+
+### Option 2: Run Locally
+1. **Clone the repository**
+2. **Install dependencies**
+3. **Launch Jupyter**
+4. **Browse the notebooks** - Each one is self-contained with explanations and examples
+5. **Follow the progression** - Start with Core, then move to specialized topics
 
 ## Prerequisites
 

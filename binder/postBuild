@@ -1,0 +1,10 @@
+#!/bin/bash
+# Post-build script for Binder
+# This runs after the environment is built but before Jupyter starts
+
+echo "Setting up Binder environment..."
+
+# Install any additional packages if needed
+# pip install jupyterlab
+
+echo "Binder environment ready!"
