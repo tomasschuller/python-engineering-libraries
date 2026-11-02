@@ -126,7 +126,7 @@ footer {
 main {
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 1rem; /* Reduce left padding */
 }
 
 /* Ensure content doesn't overlap with TOC */
