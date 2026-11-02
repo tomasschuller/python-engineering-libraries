@@ -129,6 +129,16 @@ main {
   padding: 2rem;
 }
 
+/* Fix floating sidebar layout - reduce gap between sidebar and content */
+body.nav-sidebar.floating #quarto-content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+body.nav-sidebar.floating .page-columns {
+  margin-left: 0 !important;
+}
+
 /* Ensure content doesn't overlap with TOC */
 #quarto-document-content {
   max-width: calc(100% - 300px); /* Leave space for TOC */
