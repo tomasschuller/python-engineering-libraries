@@ -124,9 +124,23 @@ footer {
 
 /* Better content area */
 main {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
+}
+
+/* Ensure content doesn't overlap with TOC */
+#quarto-document-content {
+  max-width: calc(100% - 300px); /* Leave space for TOC */
+  margin-right: 2rem;
+}
+
+/* On smaller screens, stack TOC below content */
+@media (max-width: 1200px) {
+  #quarto-document-content {
+    max-width: 100%;
+    margin-right: 0;
+  }
 }
 
 /* Better cell outputs */
