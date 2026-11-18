@@ -73,6 +73,8 @@ website:
             text: Scikit-learn
           - href: notebooks/04_ml/03_xgboost.ipynb
             text: XGBoost
+          - href: notebooks/04_ml/04_mlflow.ipynb
+            text: MLflow
       - section: 5. Data
         contents:
           - href: notebooks/05_data/01_plotly.ipynb
@@ -83,6 +85,10 @@ website:
             text: CFD Postprocessing
           - href: notebooks/05_data/04_openfoam_integration.ipynb
             text: OpenFOAM Integration
+          - href: notebooks/05_data/05_parquet.ipynb
+            text: Parquet
+          - href: notebooks/05_data/06_dvc.ipynb
+            text: DVC
       - section: 6. Testing & Quality
         contents:
           - href: notebooks/06_testing_quality/01_pytest.ipynb
